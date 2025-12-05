@@ -1,0 +1,19 @@
+/*menu*/
+.menu{
+    background-color: rgb(47, 47, 47)!important;
+}
+@media (min-width:992px){
+    .menu-desk{
+        width: 80%;
+
+    }
+    .navbar-expand-lg .navbar-collapse {
+        flex-direction: row-reverse;
+    }
+}
+.navbar-item-w{
+    color: #fff!important;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
