@@ -1,3 +1,10 @@
+/*global*/
+h1,h2,h3,h4,p{
+    color: #fff!important;
+}
+h1{
+    font-family: 'Cinzel';
+}
 /*menu*/
 .menu{
     background-color: rgb(47, 47, 47)!important;
@@ -16,4 +23,45 @@
 }
 .navbar-toggler{
     background-color: #fff;
+}
+/*hero*/
+.hero-bal{
+    padding: 120px 40px 120px 0px;
+}
+.hero-back{
+    background-image: url(images/etterem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-image-cover{
+    background-color: rgba(16, 16, 65, 0.635);
+}
+/*buttons*/
+button{
+    margin-right: 20px!important;
+}
+.btn-primary{
+    background-color: rgb(5, 63, 93);
+    border-color: rgb(5, 63, 93);
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+
+}
+.btn-primary:hover{
+    background-color: rgb(25, 87, 119);
+    border-color: rgb(25, 87, 119);
+}
+.btn-outline-primary{
+    border-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+}
+.btn-outline-primary:hover{
+    background-color: rgb(25, 87, 119);
+    border-color: rgb(255, 255, 255);
+}
+.padding-gap{
+    padding-bottom: 20px;
 }
