@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <title>A bárány</title>
   </head>
   <body>
     <!--menu-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu sticky">
       <div class="container-fluid menu-desk">
         <a class="navbar-brand" href="#"
           ><img
@@ -61,7 +64,7 @@
       <div class="hero-image-cover">
         <div class="container-fluid menu-desk">
           <div class="col-lg-6 hero-bal">
-            <h1 class="padding-gap">A Bárány Étterem</h1>
+            <h1 class="padding-gap">A Fekete Bárány Étterem</h1>
             <p class="padding-gap">
               Magas színvonalú vendéglátás, amely mindenképp megér egy próbát!
               Az edelényi kastély tövében nyitott étterem és szálláshely,
@@ -77,5 +80,92 @@
         </div>
       </div>
     </div>
+    <!--featured-->
+    <div class="menu">
+    <div id="custom-cards" class="featured-style">
+      <h2>Ajánlataink</h2>
+      <hr>
+      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('images/etlap.jpg'); background-position:center ;"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Heti ebéd ajánlat
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('images/Fekete-Barany-Etterem13.jpg'); background-position:center ;"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Étlap              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('images/wine-541922_1920.jpg'); background-position:center ;"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Borlap              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('images/pexels-pixabay-301692-scaled-1.jpg'); background-position:center ;"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Itallap              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--footer-->
   </body>
 </html>
