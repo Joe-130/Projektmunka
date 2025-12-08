@@ -1,350 +1,528 @@
 <!DOCTYPE html>
 <html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <title>A bárány</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet" />
-  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-  <title>A bárány</title>
-</head>
-
-<body>
-  <!--menu-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary menu sticky">
-    <div class="container-fluid menu-desk">
-      <a class="navbar-brand" href="#"><img src="images/logo-invert.png" alt="A bárány" title="A bárány"
-          width="150px" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active navbar-item-w" aria-current="page" href="#">Étterem</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-item-w" href="#">Szálláshely</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-item-w" href="#">Gasztrofalu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navbar-item-w" href="#">Kapcsolat</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--Hero-->
-  <div class="hero-back">
-    <div class="hero-image-cover">
-      <div class="container-fluid menu-desk hero-layout">
-        <div class="col-lg-6 hero-bal">
-          <h1 class="padding-gap">A Fekete Bárány Étterem</h1>
-          <p class="padding-gap">
-            Magas színvonalú vendéglátás, amely mindenképp megér egy próbát!
-            Az edelényi kastély tövében nyitott étterem és szálláshely,
-            valamint egy 250 fő befogadására képes komplexum Abodon, mely
-            gasztrofaluként várja vendégeit.
-          </p>
-          <button type="button" class="btn btn-primary hero-bootom">
-            Kattints ide</button><button type="button" class="btn btn-outline-primary">
-            Primary
-          </button>
-        </div>
-        <div class="col-lg-6"></div>
-      </div>
-    </div>
-  </div>
-  <!--featured-->
-  <div class="menu">
-    <div id="custom-cards" class="featured-style">
-      <h2>Ajánlataink</h2>
-      <hr />
-      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="
-                background-image: url('images/etlap.jpg');
-                background-position: center;
-              ">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Heti ebéd ajánlat
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <button type="button" class="btn btn-outline-primary ajanlataink-buttoms">
-                    Bővebben
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                      class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="
-                background-image: url('images/Fekete-Barany-Etterem13.jpg');
-                background-position: center;
-              ">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Étlap</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <button type="button" class="btn btn-outline-primary ajanlataink-buttoms">
-                    Bővebben
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                      class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="
-                background-image: url('images/wine-541922_1920.jpg');
-                background-position: center;
-              ">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Borlap</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <button type="button" class="btn btn-outline-primary ajanlataink-buttoms">
-                    Bővebben
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                      class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="
-                background-image: url('images/pexels-pixabay-301692-scaled-1.jpg');
-                background-position: center;
-              ">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Itallap</h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <button type="button" class="btn btn-outline-primary ajanlataink-buttoms">
-                    Bővebben
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                      class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                    </svg>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Restaurant-->
-  <div class="half-layout">
-    <div id="restaurant" class="half-half1"></div>
-    <div class="half-half2">
-      <h2>Étterem</h2>
-      <hr />
-      <p>
-        A Bárány konyhája, egyesíti a hagyományokat és a modern gasztronómiát,
-        mind hazai illetve nemzetközi viszonylatban.
-      </p>
-
-      <p>
-        Saját tenyésztésű bárányból és a legfrisseb alapanyagokból készült
-        ételeink garantálják a tökéletes gastro élményt, legyen szó a
-        szezonális vacsora étlapunkról, vagy a napi ebéd ajánlatunkról.
-      </p>
-
-      <p>
-        Ezeken felül tematikus és napi ajánlatainkkal szeretnénk vendégeinket
-        különleges kulináris kalandozásra csábítani.
-      </p>
-      <hr />
-      <h4>A hely ahol szívesen látjuk</h4>
-      <ul>
-        <li>
-          <p>Belső éttermi rész 50 fő</p>
-        </li>
-        <li>
-          <p>Rendezvényterem: 100 fő</p>
-        </li>
-      </ul>
-      <br />
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-    </div>
-  </div>
-  <div class="half-layout">
-    <div class="half-half3 jobbra">
-      <h2>A konyhafőnök</h2>
-      <hr />
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.
-      </p>
-      <p>
-        has survived not only five centuries, but also the leap into
-        electronic typesetting, remaining essentially unchanged.
-      </p>
-      <p>
-        It was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.
-      </p>
-      <br />
-      <button type="button" class="btn btn-outline-primary">Primary</button>
-    </div>
-    <div id="chef" class="half-half1"></div>
-  </div>
-  <!--table reservation-->
-  <div>
-    <div>
-      <div class="Asztalfoglalas-head">
-        <h2 class="change-text-color">Asztalfoglalás</h2>
-        <p class="change-text-color">
-          Below is an example form built entirely with Bootstrap’s form
-          controls.<br />
-          Each required form group has a validation state that can be
-          triggered by attempting to submit the form without completing it.
-        </p>
-      </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" placeholder="Név" />
-            <label for="floatingPassword">Név:</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="tel" class="form-control" placeholder="Telefonszam" />
-            <label for="floatingPassword">Telefonszám:</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" placeholder="name@example.com" />
-            <label for="floatingInput">E-mail cím:</label>
-          </div>
-          <div class="date-person-chose">
-            <div class="form-floating mb-3 date-person-chose1">
-              <input type="datetime-local" id="date" name="date" class="form-control" />
-              <label for="floatingPassword">Melyik nap, hány órától?</label>
-            </div>
-            <div class="form-floating mb-3 date-person-chose1">
-              <label for="floatingPassword">Hány főre?</label>
-              <select id="pesrson" name="carlist" class="form-control">
-                <option value="volvo">1</option>
-                <option value="saab">2</option>
-                <option value="opel">3</option>
-                <option value="audi">4</option>
-                <option value="audi">5</option>
-                <option value="audi">6</option>
-                <option value="audi">7</option>
-                <option value="audi">8</option>
-              </select>
-            </div>
-          </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me" /> Elfogadom az A
-              Bárány Adatkezelési tájékoztatóját.
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">
-            Asztalt foglalok
-          </button>
-          <hr class="my-4" />
-        </form>
-      </div>
-    </div>
-  </div>
-  <!--map-->
-  <div class="div-back-color">
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.514859155382!2d20.735023312062538!3d48.292948540211746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473f6f01347e2cf1%3A0xc907e42dfe4aaf83!2zQSBCw6Fyw6FueSDDiXR0ZXJlbSAtIEVkZWzDqW55!5e0!3m2!1shu!2shu!4v1765189064714!5m2!1shu!2shu"
-            width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="col-lg-6">
-          <h2>Legyen a vendégünk</h2>
-          <p>
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <br />
-          <ul class="list-dot-none">
-            <li>
-              <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-phone-vibrate" viewBox="0 0 16 16">
-                  <path
-                    d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
-                  <path
-                    d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M1.599 4.058a.5.5 0 0 1 .208.676A7 7 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A8 8 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208m12.802 0a.5.5 0 0 1 .676.208A8 8 0 0 1 16 8a8 8 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A7 7 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676M3.057 5.534a.5.5 0 0 1 .284.648A5 5 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A6 6 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284m9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8s-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8s-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648" />
-                </svg>
-                +36 30 1234-567
-              </p>
+  <body>
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu sticky">
+      <div class="container-fluid menu-desk">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/logo-invert.png"
+            alt="A bárány"
+            title="A bárány"
+            width="150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-item-w"
+                aria-current="page"
+                href="#"
+                >Étterem</a
+              >
             </li>
-            <li>
-              <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-envelope" viewBox="0 0 16 16">
-                  <path
-                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                </svg>
-                mail@mail.hu
-              </p>
+            <li class="nav-item">
+              <a class="nav-link navbar-item-w" href="#">Szálláshely</a>
             </li>
-            <li>
-              <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                </svg>
-                3780 Edelény, István Király útja 47
-              </p>
+            <li class="nav-item">
+              <a class="nav-link navbar-item-w" href="#">Gasztrofalu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-item-w" href="#">Kapcsolat</a>
             </li>
           </ul>
-          <br />
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-              Útvonal tervezés
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <div class="hero-back">
+      <div class="hero-image-cover">
+        <div class="container-fluid menu-desk hero-layout">
+          <div class="col-lg-6 hero-bal">
+            <h1 class="padding-gap">A Fekete Bárány Étterem</h1>
+            <p class="padding-gap">
+              Magas színvonalú vendéglátás, amely mindenképp megér egy próbát!
+              Az edelényi kastély tövében nyitott étterem és szálláshely,
+              valamint egy 250 fő befogadására képes komplexum Abodon, mely
+              gasztrofaluként várja vendégeit.
+            </p>
+            <button type="button" class="btn btn-primary hero-bootom">
+              Kattints ide</button
+            ><button type="button" class="btn btn-outline-primary">
+              Primary
             </button>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+    <!--featured-->
+    <div class="menu">
+      <div id="custom-cards" class="featured-style">
+        <h2>Ajánlataink</h2>
+        <hr />
+        <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/etlap.jpg');
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Heti ebéd ajánlat
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary ajanlataink-buttoms"
+                    >
+                      Bővebben
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/Fekete-Barany-Etterem13.jpg');
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Étlap</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary ajanlataink-buttoms"
+                    >
+                      Bővebben
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/wine-541922_1920.jpg');
+                background-position: center;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Borlap</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary ajanlataink-buttoms"
+                    >
+                      Bővebben
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/pexels-pixabay-301692-scaled-1.jpg');
+                background-position: center;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Itallap</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary ajanlataink-buttoms"
+                    >
+                      Bővebben
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+                        />
+                      </svg>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--footer-->
-</body>
+    <!--Restaurant-->
+    <div class="half-layout">
+      <div id="restaurant" class="half-half1"></div>
+      <div class="half-half2">
+        <h2>Étterem</h2>
+        <hr />
+        <p>
+          A Bárány konyhája, egyesíti a hagyományokat és a modern gasztronómiát,
+          mind hazai illetve nemzetközi viszonylatban.
+        </p>
 
+        <p>
+          Saját tenyésztésű bárányból és a legfrisseb alapanyagokból készült
+          ételeink garantálják a tökéletes gastro élményt, legyen szó a
+          szezonális vacsora étlapunkról, vagy a napi ebéd ajánlatunkról.
+        </p>
+
+        <p>
+          Ezeken felül tematikus és napi ajánlatainkkal szeretnénk vendégeinket
+          különleges kulináris kalandozásra csábítani.
+        </p>
+        <hr />
+        <h4>A hely ahol szívesen látjuk</h4>
+        <ul>
+          <li>
+            <p>Belső éttermi rész 50 fő</p>
+          </li>
+          <li>
+            <p>Rendezvényterem: 100 fő</p>
+          </li>
+        </ul>
+        <br />
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+      </div>
+    </div>
+    <div class="half-layout">
+      <div class="half-half3 jobbra">
+        <h2>A konyhafőnök</h2>
+        <hr />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <p>
+          has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged.
+        </p>
+        <p>
+          It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+        <br />
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+      </div>
+      <div id="chef" class="half-half1"></div>
+    </div>
+    <!--table reservation-->
+    <div>
+      <div>
+        <div class="Asztalfoglalas-head">
+          <h2 class="change-text-color">Asztalfoglalás</h2>
+          <p class="change-text-color">
+            Below is an example form built entirely with Bootstrap’s form
+            controls.<br />
+            Each required form group has a validation state that can be
+            triggered by attempting to submit the form without completing it.
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" placeholder="Név" />
+              <label for="floatingPassword">Név:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Telefonszam"
+              />
+              <label for="floatingPassword">Telefonszám:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">E-mail cím:</label>
+            </div>
+            <div class="date-person-chose">
+              <div class="form-floating mb-3 date-person-chose1">
+                <input
+                  type="datetime-local"
+                  id="date"
+                  name="date"
+                  class="form-control"
+                />
+                <label for="floatingPassword">Melyik nap, hány órától?</label>
+              </div>
+              <div class="form-floating mb-3 date-person-chose1">
+                <label for="floatingPassword">Hány főre?</label>
+                <select id="pesrson" name="carlist" class="form-control">
+                  <option value="volvo">1</option>
+                  <option value="saab">2</option>
+                  <option value="opel">3</option>
+                  <option value="audi">4</option>
+                  <option value="audi">5</option>
+                  <option value="audi">6</option>
+                  <option value="audi">7</option>
+                  <option value="audi">8</option>
+                </select>
+              </div>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Elfogadom az A
+                Bárány Adatkezelési tájékoztatóját.
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Asztalt foglalok
+            </button>
+            <hr class="my-4" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--map-->
+    <div class="div-back-color">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.514859155382!2d20.735023312062538!3d48.292948540211746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473f6f01347e2cf1%3A0xc907e42dfe4aaf83!2zQSBCw6Fyw6FueSDDiXR0ZXJlbSAtIEVkZWzDqW55!5e0!3m2!1shu!2shu!4v1765189064714!5m2!1shu!2shu"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-6">
+            <h2>Legyen a vendégünk</h2>
+            <p>
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <br />
+            <ul class="list-dot-none">
+              <li>
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-phone-vibrate"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"
+                    />
+                    <path
+                      d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2M1.599 4.058a.5.5 0 0 1 .208.676A7 7 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A8 8 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208m12.802 0a.5.5 0 0 1 .676.208A8 8 0 0 1 16 8a8 8 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A7 7 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676M3.057 5.534a.5.5 0 0 1 .284.648A5 5 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A6 6 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284m9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8s-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8s-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648"
+                    />
+                  </svg>
+                  +36 30 1234-567
+                </p>
+              </li>
+              <li>
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
+                    />
+                  </svg>
+                  mail@mail.hu
+                </p>
+              </li>
+              <li>
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-geo-alt"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                    />
+                    <path
+                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                    />
+                  </svg>
+                  3780 Edelény, István Király útja 47
+                </p>
+              </li>
+            </ul>
+            <br />
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                Útvonal tervezés
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div style="background-color: #F8F9FA;">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Gyorsmenü</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Étterem</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Szálláshely</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Gasztrofalu</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Kapcsolat</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 mb-3">
+            <form>
+              <h5>Iratkozzon fel hírlevelünkre</h5>
+              <p class="change-text-color">
+                Havi összefoglaló a legújabb és legérdekesebb híreinkről.
+              </p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >E-mail cím</label
+                >
+                <input
+                  id="newsletter1"
+                  type="email"
+                  class="form-control"
+                  placeholder="E-mail cím"
+                />
+                <button class="btn btn-primary" type="button">
+                  Feliratkozom
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p class="change-text-color">
+            © 2025 A Fekete Bárány. Minden jog fenntartva
+          </p>
+          <img src="images/logo.png" style="width: 150px;">
+        </div>
+      </footer>
+    </div>
+    </div>
+  </body>
 </html>

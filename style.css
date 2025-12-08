@@ -169,3 +169,6 @@ form{
 .list-dot-none{
 list-style-type: none;
 }
+.row{
+    justify-content: space-between;
+}
