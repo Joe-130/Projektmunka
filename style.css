@@ -124,3 +124,16 @@ hr{
 .jobbra{
     text-align: right;
 }
+.ajanlataink-buttoms{
+    border: none;
+    padding: 0px;
+}
+.ajanlataink-buttoms:hover{
+    background-color: #ffffff00;
+}
+.pb-3 {
+    padding-bottom: 5rem !important;
+}
+.mb-4 {
+    margin-bottom: -1rem !important;
+}
