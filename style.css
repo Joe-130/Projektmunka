@@ -1,174 +1,189 @@
 /*global*/
-h1,h2,h3,h4,p{
-    color: #fff!important;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: #fff !important;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Cinzel';
-    padding-bottom: 20px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cinzel";
+  padding-bottom: 20px;
 }
-hr{
-    color: #fff;
+hr {
+  color: #fff;
 }
 ::marker {
-    color: #fff;
+  color: #fff;
 }
-.change-text-color{
-    color: rgb(47, 47, 47)!important;
+.change-text-color {
+  color: rgb(47, 47, 47) !important;
 }
-.div-back-color{
-    background-color: rgb(47, 47, 47);
+.div-back-color {
+  background-color: rgb(47, 47, 47);
 }
 /*menu*/
-.menu{
-    background-color: rgb(47, 47, 47)!important;
+.menu {
+  background-color: rgb(47, 47, 47) !important;
 }
-@media (min-width:992px){
-    .menu-desk{
-        width: 80%;
-
-    }
-    .navbar-expand-lg .navbar-collapse {
-        flex-direction: row-reverse;
-    }
+@media (min-width: 992px) {
+  .menu-desk {
+    width: 80%;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
+  }
 }
-.navbar-item-w{
-    color: #fff!important;
+.navbar-item-w {
+  color: #fff !important;
 }
-.navbar-toggler{
-    background-color: #fff;
+.navbar-toggler {
+  background-color: #fff;
 }
 .sticky {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 /*hero*/
-.hero-layout{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
+.hero-layout {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
 }
-.hero-bal{
-    padding: 120px 0px 120px 120px;
+@media (max-width: 992px) {
+  .hero-layout {
+    text-align: center;
+  }
+  .hero-image-cover {
+    background-color: rgba(0, 0, 0, 0.39);
+  }
 }
-.hero-back{
-    background-image: url(images/etterem1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: center;
-
+.hero-bal {
+  padding: 10% 5% 10% 5%;
 }
-.hero-image-cover{
-background-image: url(images/hero-grandient-cover.png);}
+.hero-back {
+  background-image: url(images/etterem1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: center;
+}
+.hero-image-cover {
+  background-image: url(images/hero-grandient-cover.png);
+}
 /*buttons*/
-.btn-primary{
-    background-color: rgb(5, 63, 93);
-    border-color: rgb(5, 63, 93);
-    text-transform: uppercase;
-    padding: 15px 30px 15px 30px;
-
+.btn-primary {
+  background-color: rgb(5, 63, 93);
+  border-color: rgb(5, 63, 93);
+  text-transform: uppercase;
+  padding: 15px 30px 15px 30px;
 }
-.btn-primary:hover{
-    background-color: rgb(25, 87, 119);
-    border-color: rgb(25, 87, 119);
+.btn-primary:hover {
+  background-color: rgb(25, 87, 119);
+  border-color: rgb(25, 87, 119);
 }
-.btn-outline-primary{
-    border-color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    padding: 15px 30px 15px 30px;
-    color: #fff;
+.btn-outline-primary {
+  border-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 15px 30px 15px 30px;
+  color: #fff;
 }
-.btn-outline-primary:hover{
-    background-color: rgb(25, 87, 119);
-    border-color: rgb(255, 255, 255);
+.btn-outline-primary:hover {
+  background-color: rgb(25, 87, 119);
+  border-color: rgb(255, 255, 255);
 }
-.hero-bootom{
-    margin-right: 20px;
+.hero-bootom {
+  margin-right: 20px;
 }
-.padding-gap{
-    padding-bottom: 20px;
+.padding-gap {
+  padding-bottom: 20px;
 }
-.featured-style{
-    width: 80%; 
-    padding: 80px 0px 80px 0px; 
-    margin: auto;
+.featured-style {
+  width: 80%;
+  padding: 80px 0px 80px 0px;
+  margin: auto;
 }
-.half-half1{
-    width: 50%;
-    padding-left: 10%;
-    padding-bottom: 200px;
+.half-half1 {
+  width: 50%;
+  padding-left: 10%;
+  padding-bottom: 200px;
 }
-.half-half2{
-    width: 50%;
-    padding-right: 10%;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-bottom: 80px;
-    background-color: rgb(63, 63, 63);
+.half-half2 {
+  width: 50%;
+  padding-right: 10%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(63, 63, 63);
 }
-.half-half3{
-    width: 50%;
-    padding-left: 10%;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
-    background-color: rgb(63, 63, 63);
+.half-half3 {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(63, 63, 63);
 }
 .half-layout {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-#restaurant{
-    background-image: url(images/etterembelso.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#restaurant {
+  background-image: url(images/etterembelso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-#chef{
-    background-image: url(images/chef.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#chef {
+  background-image: url(images/chef.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.jobbra{
-    text-align: right;
+.jobbra {
+  text-align: right;
 }
-.ajanlataink-buttoms{
-    border: none;
-    padding: 0px;
+.ajanlataink-buttoms {
+  border: none;
+  padding: 0px;
 }
-.ajanlataink-buttoms:hover{
-    background-color: #ffffff00;
+.ajanlataink-buttoms:hover {
+  background-color: #ffffff00;
 }
 .pb-3 {
-    padding-bottom: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 .mb-4 {
-    margin-bottom: -1rem !important;
+  margin-bottom: -1rem !important;
 }
-.Asztalfoglalas-head{
-    text-align: center;
-    padding: 80px 0px 80px 0px;
+.Asztalfoglalas-head {
+  text-align: center;
+  padding: 80px 0px 80px 0px;
 }
-.date-person-chose{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding: 0px;
+.date-person-chose {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0px;
 }
-.date-person-chose1{
-    width: 100%;
+.date-person-chose1 {
+  width: 100%;
 }
-form{
-    margin-bottom: 80px;
+form {
+  margin-bottom: 80px;
 }
-.list-dot-none{
-list-style-type: none;
+.list-dot-none {
+  list-style-type: none;
 }
-.row{
-    justify-content: space-between;
+.row {
+  justify-content: space-between;
 }

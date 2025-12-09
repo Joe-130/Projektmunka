@@ -13,7 +13,7 @@
     />
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <title>A bárány</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body>
     <!--menu-->
@@ -43,11 +43,14 @@
               <a
                 class="nav-link active navbar-item-w"
                 aria-current="page"
-                href="#etterem">Étterem</a
+                href="#etterem"
+                >Étterem</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-item-w" href="#asztalfoglalas">Asztalfoglalás</a>
+              <a class="nav-link navbar-item-w" href="#asztalfoglalas"
+                >Asztalfoglalás</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link navbar-item-w" href="#">Szálláshely</a>
@@ -462,66 +465,70 @@
       </div>
     </div>
     <!--footer-->
-    <div style="background-color: #F8F9FA;">
-    <div class="container">
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Gyorsmenü</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#etterem" class="nav-link p-0 text-body-secondary">Étterem</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#asztalfoglalas" class="nav-link p-0 text-body-secondary"
-                  >Asztalfoglalás</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Szálláshely</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#kapcsolat" class="nav-link p-0 text-body-secondary"
-                  >Kapcsolat</a
-                >
-              </li>
-            </ul>
+    <div style="background-color: #f8f9fa">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Gyorsmenü</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#etterem" class="nav-link p-0 text-body-secondary"
+                    >Étterem</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a
+                    href="#asztalfoglalas"
+                    class="nav-link p-0 text-body-secondary"
+                    >Asztalfoglalás</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Szálláshely</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#kapcsolat" class="nav-link p-0 text-body-secondary"
+                    >Kapcsolat</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 mb-3">
+              <form>
+                <h5>Iratkozzon fel hírlevelünkre</h5>
+                <p class="change-text-color">
+                  Havi összefoglaló a legújabb és legérdekesebb híreinkről.
+                </p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >E-mail cím</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="email"
+                    class="form-control"
+                    placeholder="E-mail cím"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Feliratkozom
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="col-md-5 mb-3">
-            <form>
-              <h5>Iratkozzon fel hírlevelünkre</h5>
-              <p class="change-text-color">
-                Havi összefoglaló a legújabb és legérdekesebb híreinkről.
-              </p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden"
-                  >E-mail cím</label
-                >
-                <input
-                  id="newsletter1"
-                  type="email"
-                  class="form-control"
-                  placeholder="E-mail cím"
-                />
-                <button class="btn btn-primary" type="button">
-                  Feliratkozom
-                </button>
-              </div>
-            </form>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p class="change-text-color">
+              © 2025 A Fekete Bárány. Minden jog fenntartva
+            </p>
+            <img src="images/logo.png" style="width: 150px" />
           </div>
-        </div>
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
-        >
-          <p class="change-text-color">
-            © 2025 A Fekete Bárány. Minden jog fenntartva
-          </p>
-          <img src="images/logo.png" style="width: 150px;">
-        </div>
-      </footer>
-    </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
