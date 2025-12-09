@@ -13,8 +13,8 @@
     />
     <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
     <title>A bárány</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   </head>
-
   <body>
     <!--menu-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary menu sticky">
@@ -43,18 +43,17 @@
               <a
                 class="nav-link active navbar-item-w"
                 aria-current="page"
-                href="#"
-                >Étterem</a
+                href="#etterem">Étterem</a
               >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-item-w" href="#asztalfoglalas">Asztalfoglalás</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbar-item-w" href="#">Szálláshely</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-item-w" href="#">Gasztrofalu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-item-w" href="#">Kapcsolat</a>
+              <a class="nav-link navbar-item-w" href="#kapcsolat">Kapcsolat</a>
             </li>
           </ul>
         </div>
@@ -238,7 +237,7 @@
       </div>
     </div>
     <!--Restaurant-->
-    <div class="half-layout">
+    <div class="half-layout" id="etterem">
       <div id="restaurant" class="half-half1"></div>
       <div class="half-half2">
         <h2>Étterem</h2>
@@ -298,7 +297,7 @@
       <div id="chef" class="half-half1"></div>
     </div>
     <!--table reservation-->
-    <div>
+    <div id="asztalfoglalas">
       <div>
         <div class="Asztalfoglalas-head">
           <h2 class="change-text-color">Asztalfoglalás</h2>
@@ -370,7 +369,7 @@
       </div>
     </div>
     <!--map-->
-    <div class="div-back-color">
+    <div class="div-back-color" id="kapcsolat">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -471,7 +470,12 @@
             <h5>Gyorsmenü</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">Étterem</a>
+                <a href="#etterem" class="nav-link p-0 text-body-secondary">Étterem</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#asztalfoglalas" class="nav-link p-0 text-body-secondary"
+                  >Asztalfoglalás</a
+                >
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-body-secondary"
@@ -479,12 +483,7 @@
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
-                  >Gasztrofalu</a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary"
+                <a href="#kapcsolat" class="nav-link p-0 text-body-secondary"
                   >Kapcsolat</a
                 >
               </li>
